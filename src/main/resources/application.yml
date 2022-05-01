@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasourse:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/coursework_database
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
